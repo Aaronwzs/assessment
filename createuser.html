@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Create User</title>
+        <link rel="stylesheet" href="createuser.css">
+    </head>
+    <body>
+        <article>
+            <form action="createuser.php" method="get" style="border:150px solid whitesmoke">
+                <div class="container">
+                <h1>Create New User</h1>
+                <p>Please fill in your details to create new user.</p>
+                <hr>
+                <label for="name"><b>Name</b></label>&nbsp;
+                <input type="text" placeholder="Enter Your Name Here" name="name" required>
+
+                <label for="email"><b>Email</b></label>&nbsp;
+                <input type="text" placeholder="Enter Your Email Here" name="email"required>
+
+                <label for="gender"><b>Gender</b></label>&nbsp;<br>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>   
+
+                <label for="status"><b>Status</b></label>&nbsp;<br>
+
+                    <input type="radio" id="active" name="status" value="active">
+                    <label for="active">active</label><br>
+                    <input type="radio" id="inactive" name="status" value="incative">
+                    <label for="inactive">inactive</label><br>   
+
+
+                    
+                    
+                        <div class="clearfix">
+  
+                        <button type="button" class="cancelbtn"><a href="createuser.html">Cancel</a></button>
+                        <button type="submit" class="createbtn">Create</button>
+                       <p>log in to User? Click <a href="login.html">here</a> to update.</p>
+                     
+                        
+                        
+                
+                    </div>
+            </div>
+            </form>
+        </article>
+        
+    </body>
+</html>
